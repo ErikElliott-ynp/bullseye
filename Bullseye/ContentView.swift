@@ -28,7 +28,6 @@ struct ContentView: View {
             }
             .alert(isPresented: $alertIsVisible) { () -> Alert in
                 return Alert(title: Text("Hello There (;"), message: Text("This is my first Pop-up"), dismissButton: .default(Text("Jawesome!")))
-                
             }
         }
         
