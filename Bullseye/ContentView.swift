@@ -31,14 +31,14 @@ struct ContentView: View {
             }
             
             Button(action: {
-                print("Who's There? Mike. Mike Who? I didn't know you like Japanese poetry!")
+                print("Who's There? Hike. Hike Who? I didn't know you like Japanese poetry!")
                 self.knockKnockIsVisibile = true
             }) {
                 Text("Knock Knock!")
             }
             .alert(isPresented: $knockKnockIsVisibile) {
                 () -> Alert in
-                return Alert(title: <#T##Text#>, message: <#T##Text?#>, dismissButton: <#T##Alert.Button?#>)
+                return Alert(title: "Joke", message: <#T##Text?#>, dismissButton: <#T##Alert.Button?#>)
             }
         }
         
