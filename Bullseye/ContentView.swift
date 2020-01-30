@@ -38,7 +38,7 @@ struct ContentView: View {
             }
             .alert(isPresented: $knockKnockIsVisibile) {
                 () -> Alert in
-                return Alert(title: "Jokes and   and jokes", message: "It isnt", dismissButton: <#T##Alert.Button?#>)
+                return Alert(title: "jokes and   and jokes", message: "It isnt", dismissButton: <#T##Alert.Button?#>)
             }
         }
         
